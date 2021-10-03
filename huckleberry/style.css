@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 96px;
+  margin-left: 128px;
+  padding-bottom: 32px;
+}
+.title {
+  padding-bottom: 32px;
+}
+.intro-chunk {
+  min-width: fit-content;
+}
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+
+  padding: 64px 0px;
+}
+main .max-width-wrapper {
+  background-color: hsl(0deg, 0%, 60%);
+  padding-bottom: 32px;
+}
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding-top: 4px;
+  padding: 16px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  max-width: 50%;
+  margin: 0 auto;
+}
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  padding: 15px;
+  margin-left: -30px;
+  margin-top: -5px;
+  max-width: fit-content;
+}
+header .max-width-wrapper {
+  max-width: 50%;
+  margin: 0 220px;
+}
+.first {
+  max-width: 300px;
+  padding-bottom: 16px;
+  font-size: 1.25rem;
+}
+.second {
+  max-width: 330px;
+  font-size: 1.25rem;
+}
